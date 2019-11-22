@@ -8,6 +8,6 @@ const config = {
 const protocolo = axios.create(config)
 
 export function getPostagens () {
-  const url = '/reprograma/T8-React-II/posts'
-  return protocolo.get(url)
+  const endpoint = '/posts'
+  return protocolo.get(endpoint)
 }

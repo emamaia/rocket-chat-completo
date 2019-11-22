@@ -73,7 +73,7 @@ class Blog extends React.Component {
                 <BotaoBlog 
                 handleMudaPostagem={this.handleVoltaPostagem}
                 >
-                    Anterior
+                    Anterior   
                 </BotaoBlog>
                 </div>
 
